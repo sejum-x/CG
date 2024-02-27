@@ -1,0 +1,13 @@
+canvas {
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px; /* для збільшення проміжку між label і input */
+    margin-left: 10px; /* для збільшення проміжку між label і input */
+}

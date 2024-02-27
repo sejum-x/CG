@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.infotable {
+    margin-left: 20px;
+    width: 100%;
+}
+
+.inputInfo{
+    align-content: center;
+    margin-left: 20px;
+}

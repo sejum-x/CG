@@ -1,0 +1,9 @@
+*{
+    top: 0;
+    left: 0;
+}
+
+.TabMenu{
+    display: flex;
+    position: absolute;
+}

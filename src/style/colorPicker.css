@@ -1,0 +1,11 @@
+.colorViewer{
+    width: max-content;
+    height: max-content;
+}
+
+.sketchContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
