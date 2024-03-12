@@ -7,8 +7,16 @@ interface Point {
 }
 
 function findDAndCPoints(start: Point, end: Point): { D: Point; C: Point } {
-    const xAB = -1 * (end.y - start.y);
-    const yAB = end.x - start.x;
+
+    let xAB, yAB;
+
+    if(start.x < end.x){
+        xAB = -1 * (end.y - start.y);
+        yAB = (end.x - start.x);
+    } else{
+        xAB = (end.y - start.y);
+        yAB = -1 * (end.x - start.x);
+    }
 
     const xd = start.x - xAB;
     const yd = start.y - yAB;

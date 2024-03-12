@@ -10,11 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/react-dnd": "^3.0.2",
     "@uiw/react-color": "^2.0.8",
     "bootstrap": "^3.4.1",
+    "konva": "^9.3.6",
     "react": "^18.2.0",
     "react-color": "^2.19.3",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.2.0",
+    "react-konva": "^18.2.10",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.5"
   },
